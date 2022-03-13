@@ -9,5 +9,10 @@
 }
 .main-content {
     grid-column: 2/3;
-    grid-row: 2/3;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    background-color: blanchedalmond;
+}
+.sidebar {
+    background-color: darkgray;
 }
