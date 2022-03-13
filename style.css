@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main-content {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
