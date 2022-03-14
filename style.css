@@ -98,9 +98,13 @@ grid-template-columns: 1fr 1fr;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3,1fr);
-    justify-items: center;
+    gap: 10px;
+    /* justify-items: left; */
+    margin: 30px 15px;
 }
 .card {
     width: 200px;
     font-size: 0.8rem;
+    border: 1px Solid black;
+    border-left: 5px solid #EAB440;
 }
