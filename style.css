@@ -94,6 +94,7 @@ grid-template-columns: 1fr 1fr;
     font-size: 0.7rem;
     font-weight: 500;
 }
+
 .projects {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -103,6 +104,7 @@ grid-template-columns: 1fr 1fr;
     margin: 30px 15px;
 }
 .card {
+    display: grid;
     width: 200px;
     font-size: 0.8rem;
     border: 1px Solid black;
