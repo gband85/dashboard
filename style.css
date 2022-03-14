@@ -94,3 +94,12 @@ grid-template-columns: 1fr 1fr;
     font-size: 0.7rem;
     font-weight: 500;
 }
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.card {
+    width: 200px;
+    font-size: 0.8rem;
+}
