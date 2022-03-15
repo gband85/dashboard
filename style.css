@@ -41,13 +41,6 @@ ul {
     column-gap: 10px;
     /* display: grid; */
 }
-.main-content {
-    grid-column: 2/3;
-    display: grid;
-    grid-template-rows: 100px 1fr;
-    background-color: #E1E7EF;
-    /* height: 100%; */
-}
 .header {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -111,6 +104,9 @@ grid-template-columns: 1fr 1fr;
     grid-column: 2/3;
     /* height: 100%; */
     /* overflow: visible */
+    /* grid-template-rows: 100px 1fr; */
+    background-color: #E1E7EF;
+    /* height: 100%; */
 }
 .projects {
     display: grid;
@@ -143,4 +139,5 @@ justify-self: left;
     background-color: #fff;
   grid-column: 2/3;  
   grid-row: 1/2;
+  font-size: 0.65rem;
 }
