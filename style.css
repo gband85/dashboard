@@ -105,7 +105,7 @@ grid-template-columns: 1fr 1fr;
 }
 .main-content {
     grid-template-columns: 1fr 1fr;
-    /* grid-template-rows: 1fr; */
+    grid-template-rows: 1fr 1fr;
     display: grid;
     /* grid-row: 2/3; */
     grid-column: 2/3;
@@ -141,4 +141,5 @@ justify-self: left;
 }
 .announcements {
   grid-column: 2/3;  
+  grid-row: 1/2;
 }
