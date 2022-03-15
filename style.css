@@ -140,4 +140,21 @@ justify-self: left;
   grid-column: 2/3;  
   grid-row: 1/2;
   font-size: 0.65rem;
+  padding: 20px;
+  /* margin-right: 10px; */
+  margin-top: 30px;
+}
+
+.announcements li {
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+}
+.announcements li:last-child {
+border-bottom: none;
+}
+.announcements li p:first-child {
+    font-weight: 600;
+}
+.announcements li p:last-child {
+    color: gray;
 }
