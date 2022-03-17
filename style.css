@@ -100,20 +100,22 @@ grid-template-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     display: grid;
     background-color: #E1E7EF;
-    /* gap: 30px; */
+    gap: 20px;
 }
 .right {
 display: grid;
 grid-template-rows: 1fr 1fr;
 height: fit-content;
 margin: 30px 0;
+gap: 20px;
 }
 .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: fit-content;
     margin-top: 30px;
-    margin-left: 15px;
+    margin-left: 20px;
+    gap: 20px;
 }
 .card {
     background-color: #fff;
