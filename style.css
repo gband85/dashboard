@@ -100,6 +100,7 @@ grid-template-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     display: grid;
     background-color: #E1E7EF;
+    /* gap: 30px; */
 }
 .right {
 display: grid;
@@ -111,6 +112,8 @@ margin: 30px 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: fit-content;
+    margin-top: 30px;
+    margin-left: 15px;
 }
 .card {
     background-color: #fff;
