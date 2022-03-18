@@ -1,185 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
-                <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <div class="container">
-        <div class="sidebar">
-            <div class="title">
-        <span class="iconify" data-icon="mdi-view-dashboard"></span>
-        <p>Dashboard</p>
-    </div>        
-            <ul>
-                <li>
-                    <span class="iconify" data-icon="mdi-home"></span>
-                    <p>Home</p></li>
-                <li>
-                    <span class="iconify" data-icon="mdi-card-account-details-outline"></span>
-                    <p>Profile</p>
-                </li>
-                <li>
-                    <span class="iconify" data-icon="mdi-message-reply"></span>
-                    <p>Messages</p>
-                </li>
-                <li>
-                    <span class="iconify" data-icon="mdi-clock-time-three"></span>
-                    <p>History</p>
-                </li>
-                <li>
-                    <span class="iconify" data-icon="mdi-note-multiple"></span>
-                    <p>Tasks</p>
-                </li>
-                <li>
-                    <span class="iconify" data-icon="mdi-account-group"></span>
-                    <p>Communities</p>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <span class="iconify" data-icon="mdi-cog"></span>
-                    <p>Settings</p>
-                </li>
-                <li>
-                    <span class="iconify" data-icon="mdi-help-box"></span>
-                    <p>Support</p>
-                </li>
-                <li>
-                    <span class="iconify" data-icon="mdi-shield-check"></span>
-                    <p>Privacy</p>
-                </li>
-            </ul>
-        
-    </div>
-       <div class="header">
-    <div class="search">
-    <label for=""><span class="iconify" data-icon="mdi-magnify"></span></label>
-    <input type="text">
-    </div>
-    <div class="user">
-    <span class="iconify" data-icon="mdi-bell-ring-outline"></span>
-    <img src="./circle_icon.svg" alt="" width="32px">
-    <p>John Smith</p>
-    </div>        
-    <div class="welcome">
-        <img src="./circle_icon.svg" alt="" width="48px">
-        <p><span class="small">Hi there,</span>John Smith (@smith)</p>
-    </div>
-
-    <div class="buttons">
-        <button>New</button>
-        <button>Upload</button>
-        <button>Share</button>
-
-    </div>
-    </div>
-    <div class="main-content">
-<!-- <p>Your Projects</p> -->
-            <div class="projects">
-            
-            <div class="card">
-                <div class="card-title">Typical project</div>
-                <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum esse eligendi tenetur iusto soluta voluptatibus eius rem consectetur ipsa.</div>
-                <div class="card-footer">
-                    <span class="iconify" data-icon="mdi-star-plus-outline"></span>
-                    <span class="iconify" data-icon="mdi-eye-plus-outline"></span>
-                    <span class="iconify" data-icon="mdi-share-variant"></span>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-title">Less Cool Project</div>
-                <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nesciunt odit distinctio quia temporibus vel nisi sed, aspernatur provident.</div>
-                <div class="card-footer">  
-                <span class="iconify" data-icon="mdi-star-plus-outline"></span>
-                    <span class="iconify" data-icon="mdi-eye-plus-outline"></span>
-                    <span class="iconify" data-icon="mdi-share-variant"></span>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-title">Impossible App</div>
-                <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam provident architecto ipsum error nesciunt, placeat cumque.</div>
-                <div class="card-footer">
-                    <span class="iconify" data-icon="mdi-star-plus-outline"></span>
-                    <span class="iconify" data-icon="mdi-eye-plus-outline"></span>
-                    <span class="iconify" data-icon="mdi-share-variant"></span>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-title">Easy Peasy App</div>
-                <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nam illum nobis dolorem rerum error porro quos inventore aperiam quasi consectetur hic ad.</div>
-                <div class="card-footer">
-                    <span class="iconify" data-icon="mdi-star-plus-outline"></span>
-                    <span class="iconify" data-icon="mdi-eye-plus-outline"></span>
-                    <span class="iconify" data-icon="mdi-share-variant"></span>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-title">Ad Blocker</div>
-                <div class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae quos tempore nam et aliquid temporibus sequi amet odio eligendi.</div>
-                <div class="card-footer">
-                    <span class="iconify" data-icon="mdi-star-plus-outline"></span>
-                    <span class="iconify" data-icon="mdi-eye-plus-outline"></span>
-                    <span class="iconify" data-icon="mdi-share-variant"></span>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-title">Money Maker</div>
-                <div class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi quis illo, necessitatibus, numquam a omnis repudiandae sed cum expedita sint vel!</div>
-                <div class="card-footer">
-                    <span class="iconify" data-icon="mdi-star-plus-outline"></span>
-                    <span class="iconify" data-icon="mdi-eye-plus-outline"></span>
-                    <span class="iconify" data-icon="mdi-share-variant"></span>
-                </div>
-            </div>
+      <div class="sidebar">
+        <div class="title">
+          <span class="iconify" data-icon="mdi-view-dashboard"></span>
+          <p>Dashboard</p>
         </div>
-<div class="right">
-<div class="announcements">
-    <ul>
-        <li>
-            <p>Site Maintenance</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non illum, perferendis...</p>
-        </li>
-         <li>
-            <p>Community Share Day</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, consequuntur praesentium...</p>
-         </li>
-         <li>
-            <p>Updated Privacy Policy</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda a eum neque sit sapiente...</p>
-        </li>
-    </ul>
-</div>
-<div class="trending">
-    <ul>
-        <li>
-            <p>@tegan</p>
-            <p>World Peace Builder</p>
-        </li>
-        <li>
-            <p>@morgan</p>
-            <p>Super Cool Project</p>
-        </li>
-        <li>
-            <p>@kendall</p>
-            <p>Life Changing App</p>
-        </li>
-        <li>
-            <p>@alex</p>
-            <p>No Traffic Maker</p>
-        </li>
-    </ul>
-</div>
-</div>
-    </div>
-    
-    
+        <ul>
+          <li>
+            <span class="iconify" data-icon="mdi-home"></span>
+            <p>Home</p>
+          </li>
+          <li>
+            <span
+              class="iconify"
+              data-icon="mdi-card-account-details-outline"
+            ></span>
+            <p>Profile</p>
+          </li>
+          <li>
+            <span class="iconify" data-icon="mdi-message-reply"></span>
+            <p>Messages</p>
+          </li>
+          <li>
+            <span class="iconify" data-icon="mdi-clock-time-three"></span>
+            <p>History</p>
+          </li>
+          <li>
+            <span class="iconify" data-icon="mdi-note-multiple"></span>
+            <p>Tasks</p>
+          </li>
+          <li>
+            <span class="iconify" data-icon="mdi-account-group"></span>
+            <p>Communities</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <span class="iconify" data-icon="mdi-cog"></span>
+            <p>Settings</p>
+          </li>
+          <li>
+            <span class="iconify" data-icon="mdi-help-box"></span>
+            <p>Support</p>
+          </li>
+          <li>
+            <span class="iconify" data-icon="mdi-shield-check"></span>
+            <p>Privacy</p>
+          </li>
+        </ul>
+      </div>
+      <div class="header">
+        <div class="search">
+          <label for=""
+            ><span class="iconify" data-icon="mdi-magnify"></span
+          ></label>
+          <input type="text" />
+        </div>
+        <div class="user">
+          <span class="iconify" data-icon="mdi-bell-ring-outline"></span>
+          <img src="./circle_icon.svg" alt="" width="32px" />
+          <p>John Smith</p>
+        </div>
+        <div class="welcome">
+          <img src="./circle_icon.svg" alt="" width="48px" />
+          <p><span class="small">Hi there,</span>John Smith (@smith)</p>
+        </div>
+
+        <div class="buttons">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+      </div>
+      <div class="main-content">
+        <!-- <p>Your Projects</p> -->
+        <div class="projects">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Typical project</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum esse eligendi tenetur iusto soluta voluptatibus eius
+                rem consectetur ipsa.
+              </p>
+            </div>
+            <div class="card-footer">
+              <span class="iconify" data-icon="mdi-star-plus-outline"></span>
+              <span class="iconify" data-icon="mdi-eye-plus-outline"></span>
+              <span class="iconify" data-icon="mdi-share-variant"></span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Less Cool Project</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                nesciunt odit distinctio quia temporibus vel nisi sed,
+                aspernatur provident.
+              </p>
+            </div>
+            <div class="card-footer">
+              <span class="iconify" data-icon="mdi-star-plus-outline"></span>
+              <span class="iconify" data-icon="mdi-eye-plus-outline"></span>
+              <span class="iconify" data-icon="mdi-share-variant"></span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Impossible App</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                provident architecto ipsum error nesciunt, placeat cumque.
+              </p>
+            </div>
+            <div class="card-footer">
+              <span class="iconify" data-icon="mdi-star-plus-outline"></span>
+              <span class="iconify" data-icon="mdi-eye-plus-outline"></span>
+              <span class="iconify" data-icon="mdi-share-variant"></span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Easy Peasy App</h5>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              nam illum nobis dolorem rerum error porro quos inventore aperiam
+              quasi consectetur hic ad.
+            </div>
+            <div class="card-footer">
+              <span class="iconify" data-icon="mdi-star-plus-outline"></span>
+              <span class="iconify" data-icon="mdi-eye-plus-outline"></span>
+              <span class="iconify" data-icon="mdi-share-variant"></span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Ad Blocker</h5>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Repudiandae quos tempore nam et aliquid temporibus sequi amet
+                odio eligendi.
+              </p>
+            </div>
+            <div class="card-footer">
+              <span class="iconify" data-icon="mdi-star-plus-outline"></span>
+              <span class="iconify" data-icon="mdi-eye-plus-outline"></span>
+              <span class="iconify" data-icon="mdi-share-variant"></span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Money Maker</h5>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
+                quis illo, necessitatibus, numquam a omnis repudiandae sed cum
+                expedita sint vel!
+              </p>
+            </div>
+            <div class="card-footer">
+              <span class="iconify" data-icon="mdi-star-plus-outline"></span>
+              <span class="iconify" data-icon="mdi-eye-plus-outline"></span>
+              <span class="iconify" data-icon="mdi-share-variant"></span>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="announcements">
+            <ul>
+              <li>
+                <p>Site Maintenance</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                  illum, perferendis...
+                </p>
+              </li>
+              <li>
+                <p>Community Share Day</p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Voluptatum, consequuntur praesentium...
+                </p>
+              </li>
+              <li>
+                <p>Updated Privacy Policy</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Assumenda a eum neque sit sapiente...
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="trending">
+            <ul>
+              <li>
+                <p>@tegan</p>
+                <p>World Peace Builder</p>
+              </li>
+              <li>
+                <p>@morgan</p>
+                <p>Super Cool Project</p>
+              </li>
+              <li>
+                <p>@kendall</p>
+                <p>Life Changing App</p>
+              </li>
+              <li>
+                <p>@alex</p>
+                <p>No Traffic Maker</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
-</body>
+  </body>
 </html>
