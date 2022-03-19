@@ -166,6 +166,8 @@ margin-bottom: 0;
     color: gray;
 }
 .trending {
+    justify-self: ;
+    align-self: flex-end;
     border-radius: 5px;
     width: 200px;
     background-color: #fff;
@@ -174,7 +176,21 @@ margin-bottom: 0;
     padding: 20px 20px 20px 20px;
 }
 .trending li {
-margin-bottom: 20px;
+margin-bottom: 15px;
+column-gap: 5px;
+display: grid;
+grid-template-columns: auto 1fr;
+grid-template-rows:  1fr 1fr;
+}
+.trending li p {
+    grid-column: 2/3;
+}
+.trending li:last-child {
+    margin-bottom: 0;
+}
+.trending li img {
+    grid-row: 1/3;
+    align-self: center;
 }
 .trending li p:last-child {
 color: gray;
