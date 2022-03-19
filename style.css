@@ -99,23 +99,24 @@ grid-template-columns: 1fr 1fr;
 .main-content {
     grid-template-columns: 1fr 1fr;
     display: grid;
+    /* height: fit-content; */
+    padding: 20px;
     background-color: #E1E7EF;
-    gap: 20px;
+    column-gap: 20px;
+    /* gap: 20px; */
 }
 .right {
 display: grid;
-/* grid-template-rows: 1fr 1fr; */
+grid-template-rows: 1fr 1fr;
 height: fit-content;
-margin-top: 30px;
-gap: 26px;
+row-gap: 40px;
 }
 .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: fit-content;
-    margin-top: 30px;
-    margin-left: 20px;
-    gap: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
 }
 .card {
     background-color: #fff;
@@ -134,7 +135,6 @@ gap: 26px;
 color: gray;
 }
 .card-footer {
-    /* padding-right: 20px; */
     font-size: 0.9rem;
     display: flex;
     height: fit-content;
@@ -152,8 +152,6 @@ color: gray;
 }
 
 .announcements li {
-    /* border-bottom: 1px solid gray; */
-    /* padding: 10px 0; */
     margin-bottom: 20px;
 }
 .announcements li:last-child {
@@ -166,14 +164,12 @@ margin-bottom: 0;
     color: gray;
 }
 .trending {
-    justify-self: ;
-    align-self: flex-end;
     border-radius: 5px;
     width: 200px;
     background-color: #fff;
     font-size: 0.65rem;
     height: fit-content;
-    padding: 20px 20px 20px 20px;
+    padding: 10px 20px 20px 20px;
 }
 .trending li {
 margin-bottom: 15px;
