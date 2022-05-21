@@ -98,7 +98,7 @@ grid-template-columns: 1fr 1fr;
 }
 .main-content {
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: fit-content 1fr;
     display: grid;
     /* height: fit-content; */
     padding: 60px 20px 60px;
